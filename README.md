@@ -6,7 +6,7 @@ Ce projet s'inscrit dans l'UF "*Du capteur au banc de Test*". Il consiste en l'�
 ## Descriptif du Projet
 
 Notre projet se sépare en deux axes précis:
- - Le développement d'une partie *Professionelle* permettant depuis une application et un affichage OLED d'obtenir les valeurs de résistance de notre capteur
+ - Le développement d'une partie *Professionnelle* permettant depuis une application et un affichage OLED d'obtenir les valeurs de résistance de notre capteur
  - Le développement d'une partie *Fun* permettant une application pratique du capteur pour jouer au Dino Game de google.
 
 ## Sommaire
