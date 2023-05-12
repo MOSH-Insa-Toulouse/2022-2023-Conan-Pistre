@@ -9,6 +9,8 @@ Notre projet se sépare en deux axes précis:
  - Le développement d'une partie *Professionnelle* permettant depuis une application et un affichage OLED d'obtenir les valeurs de résistance de notre capteur
  - Le développement d'une partie *Fun* permettant une application pratique du capteur pour jouer au Dino Game de google.
 
+![Social_dino-with-hat](https://github.com/MOSH-Insa-Toulouse/2022-2023-Conan-Pistre/assets/124299449/8fbb687d-eef3-498b-a7d9-f39a7269cd0d)
+
 ## Sommaire
 
 * [Test et Mesures LTSpice : circuit amplificateur Transimpédance à deux étages](#PremiereSection)
