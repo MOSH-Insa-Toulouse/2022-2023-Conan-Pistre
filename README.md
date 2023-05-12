@@ -36,7 +36,7 @@ Notre projet se sépare en deux axes précis:
 * [Datasheet](#SixiemeSection)
 
 ## Tests et Mesures LTSpice : circuit amplificateur Transimpédance à deux étages <a id="PremiereSection"></a>
-## Fabrication du shield <a id="DeuxiemeSection"></a> 
+## Fabrication du shield <a id="DeuxiemeSection"></a>
 ### Composants designés : empreintes <a id="DeuxiemeSection1"></a>
 ### Schématique <a id="DeuxiemeSection2"></a>
 ### Placement des composants <a id="DeuxiemeSection3"></a>
