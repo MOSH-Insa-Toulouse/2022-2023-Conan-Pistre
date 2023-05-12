@@ -2,6 +2,7 @@
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/its-not-a-lie-if-you-believe-it.svg)](https://forthebadge.com)
 
 
 Ce projet s'inscrit dans l'UF "*Du capteur au banc de Test*". Il consiste en l'élaboration d'un capteur de déformation/Jauge de contrainte à base de graphite.
