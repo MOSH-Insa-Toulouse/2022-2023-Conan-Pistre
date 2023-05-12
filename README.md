@@ -19,7 +19,7 @@ Notre projet se sépare en deux axes précis:
 ## Sommaire
 
 * [Tests et Mesures LTSpice : circuit amplificateur Transimpédance à deux étages](#PremiereSection)
-* [Fabrication du shield](#DeuxiemeSection)
+* [Fabrication du Shield](#DeuxiemeSection)
   * [Composants designés : empreintes](#DeuxiemeSection1)
   * [Schématique](#DeuxiemeSection2)
   * [Placement des composants](#DeuxiemeSection3)
@@ -35,9 +35,61 @@ Notre projet se sépare en deux axes précis:
 * [Datasheet](#SixiemeSection)
 
 ## Tests et Mesures LTSpice : circuit amplificateur Transimpédance à deux étages <a id="PremiereSection"></a>
-## Fabrication du shield <a id="DeuxiemeSection"></a>
+
+Le Schéma du circuit `Ci-dessous` représente le circuit choisi pour optimiser les capacités de notre capteur. En effet ce dernier possédant une résistance élevée, il ne délivrera qu'un courant faible qu'il nous faut amplifier pour obtenir des résultats exploitables par notre programme Arduino.
+
+**Schéma électrique Optimisé**
+![Schéma électrique optimisé](https://github.com/MOSH-Insa-Toulouse/2022-2023-Conan-Pistre/assets/124299449/073e9e18-b402-41fa-b7d9-c79b0854c814)
+
+Ce circuit possède 3 filtres ayant chacun leur utilité :
+ - `en rouge` le filtre passe bas passif permet donc filtrer les perturbations et les excès de bruit en courant sur la forme du signal d'entrée, il possède une fréquence de coupure aux alentour de 16Hz.
+ - `en vert` le filtre passe haut actif permet de supprimer la composante parasite de 50Hz qui vient perturber le signal, il possède une fréqence de 1,6Hz.
+ - `en violet` le filtre passe bas passif permet limiter le bruit lors du traitement du signal, il possède une fréquence de 1,6kHz.
+
+Passons maintenant à la simulation de notre circuit afin d'en évaluer l'optimisation :
+
+**Vérification du la tension de sortie du montage avec un courant d'entrée égal à 100nA**
+![Test 100nA](https://github.com/MOSH-Insa-Toulouse/2022-2023-Conan-Pistre/assets/124299449/8a9fe258-257a-4ad1-936e-59e497afc3d3)
+
+Comme constaté `Ci-dessus` notre circuit permet bien un gain de 100dB ce qui permet une nette augmentation du signal de sortie par rapport au signal d'entrée.
+
+## Fabrication du Shield <a id="DeuxiemeSection"></a>
+
+Pour fabriquer notre PCB nous avons du le designer sur KICAD. Nous avons ajouté au circuit précédent un écran OLED, un encodeur rotatoire ainsi qu'un module Bluetooth afin d'exploiter les résultats de notre capteur.
+
 ### Composants designés : empreintes <a id="DeuxiemeSection1"></a>
+
+* Ecran OLED 
+<img src="https://github.com/MOSH-Insa-Toulouse/2022-2023-Conan-Pistre/assets/124299449/690b7c5a-9b07-4123-ac01-b100b4dfdc0d" height="200">
+<img src="https://github.com/MOSH-Insa-Toulouse/2022-2023-Conan-Pistre/assets/124299449/f26ef03b-f065-4206-ad9c-2aa820cba9b1" height="200"> 
+
+* Module Bluetooth
+
+<img src="https://github.com/MOSH-Insa-Toulouse/2022-2023-Conan-Pistre/assets/124299449/bbe3be88-456b-42c5-8b16-e3fc5adad2b9" height="200"> 
+<img src="https://github.com/MOSH-Insa-Toulouse/2022-2023-Conan-Pistre/assets/124299449/011ea964-ad66-4075-81ba-17ab6f6eb55f" height="200"> 
+
+* Amplificateur LT1050 
+
+<img src="https://github.com/MOSH-Insa-Toulouse/2022-2023-Conan-Pistre/assets/124299449/9cdc2260-44b8-49fc-b331-57cdfd9763ce" height="200"> 
+<img src="https://github.com/MOSH-Insa-Toulouse/2022-2023-Conan-Pistre/assets/124299449/c8b8069a-4d96-43b7-b684-560d6a77d59a" height="200"> 
+
+* Capteur Graphite 
+
+<img src="https://github.com/MOSH-Insa-Toulouse/2022-2023-Conan-Pistre/assets/124299449/83842c6e-6c81-4218-8b72-2c11436dbcd0" height="200"> 
+<img src="https://github.com/MOSH-Insa-Toulouse/2022-2023-Conan-Pistre/assets/124299449/bceab15a-b39f-4515-b251-cb0adb5ebefb" height="200"> 
+
+* Encodeur Rotatoire
+
+<img src="https://github.com/MOSH-Insa-Toulouse/2022-2023-Conan-Pistre/assets/124299449/23737520-2d90-4ebc-99b0-1eca3a8b345d" height="200"> 
+<img src="https://github.com/MOSH-Insa-Toulouse/2022-2023-Conan-Pistre/assets/124299449/b3102eea-f775-4d99-bc2c-7c0313cecd2a" height="200"> 
+
+
 ### Schématique <a id="DeuxiemeSection2"></a>
+
+Une fois les empreintes créées, nous avons réalisé le schéma de notre shield. En haut à gauche sont représentées les broches de la carte Arduino. Au milieu est représenté le cicuit comprenant notre capteur et l'amplificateur transimpédance et juste au-dessus se trouvent l'écran OLED, le module bluetooth et l'encodeur rotatoire.
+
+![schématique](https://github.com/MOSH-Insa-Toulouse/2022-2023-Conan-Pistre/assets/124299449/e11dc63e-8564-4904-98b3-fa5d8bc89b6a)
+
 ### Placement des composants <a id="DeuxiemeSection3"></a>
 ### Visualisation 3D <a id="DeuxiemeSection4"></a>
 ### Réalisation du PCB <a id="DeuxiemeSection5"></a>
