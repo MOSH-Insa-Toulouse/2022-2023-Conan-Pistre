@@ -19,7 +19,7 @@ Notre projet se sépare en deux axes précis:
 
 ## Sommaire
 
-* [Test et Mesures LTSpice : circuit amplificateur Transimpédance à deux étages](#PremiereSection)
+* [Tests et Mesures LTSpice : circuit amplificateur Transimpédance à deux étages](#PremiereSection)
 * [Fabrication du shield](#DeuxiemeSection)
   * [Composants designés : empreintes](#DeuxiemeSection1)
   * [Schématique](#DeuxiemeSection2)
@@ -35,7 +35,7 @@ Notre projet se sépare en deux axes précis:
 * [Banc de test](#CinquiemeSection)
 * [Datasheet](#SixiemeSection)
 
-## Test et Mesures LTSpice : circuit amplificateur Transimpédance à deux étages <a id="PremiereSection"></a>
+## Tests et Mesures LTSpice : circuit amplificateur Transimpédance à deux étages <a id="PremiereSection"></a>
 ## Fabrication du shield <a id="DeuxiemeSection"></a> 
 ### Composants designés : empreintes <a id="DeuxiemeSection1"></a>
 ### Schématique <a id="DeuxiemeSection2"></a>
@@ -49,4 +49,7 @@ Notre projet se sépare en deux axes précis:
 ### Gestion de l'affichage OLED <a id="TroisiemeSection3"></a>
 ## Application Smartphone APK <a id="QuatriemeSection"></a>
 ## Banc de test <a id="CinquiemeSection"></a>
+
+<img width="252" alt="116738001-2dc50b00-a9f2-11eb-9315-dd29a9fe3ac9" src="https://github.com/MOSH-Insa-Toulouse/2022-2023-Conan-Pistre/assets/124299449/7a3ebfc8-85bd-400f-bcd3-adbc765b7827">
+
 ## Datasheet <a id="SixiemeSection"></a>
