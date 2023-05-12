@@ -54,6 +54,6 @@ Pour réaliser notre banc de test, nous avons utilisé le banc de test fourni pa
 
 <img width="252" alt="116738001-2dc50b00-a9f2-11eb-9315-dd29a9fe3ac9" src="https://github.com/MOSH-Insa-Toulouse/2022-2023-Conan-Pistre/assets/124299449/7a3ebfc8-85bd-400f-bcd3-adbc765b7827">
 
-<img width="252" alt="116738001-2dc50b00-a9f2-11eb-9315-dd29a9fe3ac9" src="https://github.com/MOSH-Insa-Toulouse/2022-2023-Conan-Pistre/assets/124299449/7e5e50d9-7e7a-4001-abee-c517d2f1eade">
+![Graph](https://github.com/MOSH-Insa-Toulouse/2022-2023-Conan-Pistre/assets/124299449/0ce1f360-5d73-4108-997f-c052feeb7980)
 
 ## Datasheet <a id="SixiemeSection"></a>
