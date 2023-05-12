@@ -1,5 +1,9 @@
 # 2022-2023-Conan-Pistre
 
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)](https://forthebadge.com)
+
+
 Ce projet s'inscrit dans l'UF "*Du capteur au banc de Test*". Il consiste en l'élaboration d'un capteur de déformation/Jauge de contrainte à base de graphite.
 **Design**, **Conception**, **Test** et **Codage** de notre Capteur et de son circuit sont détaillés ci-dessous.
 
@@ -9,7 +13,7 @@ Notre projet se sépare en deux axes précis:
  - Le développement d'une partie *Professionnelle* permettant depuis une application et un affichage OLED d'obtenir les valeurs de résistance de notre capteur
  - Le développement d'une partie *Fun* permettant une application pratique du capteur pour jouer au Dino Game de google.
 
-![Social_dino-with-hat](https://github.com/MOSH-Insa-Toulouse/2022-2023-Conan-Pistre/assets/124299449/8fbb687d-eef3-498b-a7d9-f39a7269cd0d)
+![Social_dino-with-hat](https://github.com/MOSH-Insa-Toulouse/2022-2023-Conan-Pistre/assets/124299449/8fbb687d-eef3-498b-a7d9-f39a7269cd0d) 
 
 ## Sommaire
 
