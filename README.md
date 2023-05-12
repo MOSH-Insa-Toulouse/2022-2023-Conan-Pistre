@@ -50,6 +50,8 @@ Notre projet se sépare en deux axes précis:
 ## Application Smartphone APK <a id="QuatriemeSection"></a>
 ## Banc de test <a id="CinquiemeSection"></a>
 
+Pour réaliser notre banc de test, nous avons utilisé le banc de test fourni par le Génie Physique : 7 demi-cercles en plastique, dont les diamètres varient de 1 cm à 2,5cm.
+
 <img width="252" alt="116738001-2dc50b00-a9f2-11eb-9315-dd29a9fe3ac9" src="https://github.com/MOSH-Insa-Toulouse/2022-2023-Conan-Pistre/assets/124299449/7a3ebfc8-85bd-400f-bcd3-adbc765b7827">
 
 ## Datasheet <a id="SixiemeSection"></a>
