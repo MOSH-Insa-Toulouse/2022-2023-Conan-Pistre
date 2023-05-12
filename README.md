@@ -1,6 +1,6 @@
 # 2022-2023-Conan-Pistre
 
-![fake-it-till-u-make-it](https://github.com/MOSH-Insa-Toulouse/2022-2023-Conan-Pistre/assets/124299449/d1aa315c-b63d-4b44-9450-cd37b32842a0)
+![fake-it-till-u-make-it (1)](https://github.com/MOSH-Insa-Toulouse/2022-2023-Conan-Pistre/assets/124299449/4b47f089-a819-40a5-b6be-58dee72a209d)
 [![forthebadge](https://forthebadge.com/images/badges/powered-by-black-magic.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/its-not-a-lie-if-you-believe-it.svg)](https://forthebadge.com)
