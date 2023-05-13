@@ -22,7 +22,7 @@ Notre projet se sépare en deux axes précis:
 
 * [Tests et Mesures LTSpice : circuit amplificateur Transimpédance à deux étages](#PremiereSection)
 * [Fabrication du Shield](#DeuxiemeSection)
-  * [Composants designés : empreintes](#DeuxiemeSection1)
+  * [Composants designés : Symboles & empreintes](#DeuxiemeSection1)
   * [Schématique](#DeuxiemeSection2)
   * [Placement des composants](#DeuxiemeSection3)
   * [Visualisation 3D](#DeuxiemeSection4)
@@ -59,7 +59,7 @@ Comme constaté `ci-dessus` notre circuit permet bien un gain de 100dB ce qui pe
 
 Pour fabriquer notre PCB nous avons du le designer sur KICAD. Nous avons ajouté au circuit précédent un écran OLED, un encodeur rotatoire ainsi qu'un module Bluetooth afin d'exploiter les résultats de notre capteur.
 
-### Composants designés : empreintes <a id="DeuxiemeSection1"></a>
+### Composants designés : Symboles & empreintes <a id="DeuxiemeSection1"></a>
 
 * Ecran OLED 
 <img src="https://github.com/MOSH-Insa-Toulouse/2022-2023-Conan-Pistre/assets/124299449/690b7c5a-9b07-4123-ac01-b100b4dfdc0d" height="200">
@@ -88,7 +88,7 @@ Pour fabriquer notre PCB nous avons du le designer sur KICAD. Nous avons ajouté
 
 ### Schématique <a id="DeuxiemeSection2"></a>
 
-Une fois les empreintes créées, nous avons réalisé le schéma de notre shield. En haut à gauche sont représentées les broches de la carte Arduino. Au milieu est représenté le cicuit comprenant notre capteur et l'amplificateur transimpédance et juste au-dessus se trouvent l'écran OLED, le module bluetooth et l'encodeur rotatoire.
+Une fois les symboles et empreintes créés, nous avons réalisé le schéma de notre shield. En haut à gauche sont représentées les broches de la carte Arduino. Au milieu est représenté le cicuit comprenant notre capteur et l'amplificateur transimpédance et juste au-dessus se trouvent l'écran OLED, le module bluetooth et l'encodeur rotatoire.
 
 ![schématique](https://github.com/MOSH-Insa-Toulouse/2022-2023-Conan-Pistre/assets/124299449/ab0e1c07-749f-45b6-93e3-46a6f9240166)
 
