@@ -25,9 +25,8 @@ Notre projet se sépare en deux axes précis:
   * [Composants designés : Symboles & empreintes](#DeuxiemeSection1)
   * [Schématique](#DeuxiemeSection2)
   * [Placement des composants](#DeuxiemeSection3)
-  * [Visualisation 3D](#DeuxiemeSection4)
-  * [Réalisation du PCB](#DeuxiemeSection5)
-  * [Perçage et soudure](#DeuxiemeSection6)
+  * [Réalisation du PCB](#DeuxiemeSection4)
+  * [Perçage et soudure](#DeuxiemeSection5)
 * [Code Arduino](#TroisiemeSection)
   * [Lecture de la valeur de la Résistance](#TroisiemeSection1)
   * [Gestion du BlueTooth](#TroisiemeSection2)
@@ -94,14 +93,13 @@ Une fois les symboles et empreintes créés, nous avons réalisé le schéma de 
 
 ### Placement des composants <a id="DeuxiemeSection3"></a>
 
-![PCB](https://github.com/MOSH-Insa-Toulouse/2022-2023-Conan-Pistre/assets/124299449/4cf51378-f59e-4be3-8dd0-46988686cba1)
+![schématique](https://github.com/MOSH-Insa-Toulouse/2022-2023-Conan-Pistre/assets/124299449/a4e3f035-550c-4e20-b8b6-485168f39ef5)
 
-### Visualisation 3D <a id="DeuxiemeSection4"></a>
-### Réalisation du PCB <a id="DeuxiemeSection5"></a>
+### Réalisation du PCB <a id="DeuxiemeSection4"></a>
 
 Le PCB a été réalisé avec l'aide de Cathy. Notre PCB a été fabriqué à partir d'une plaque d'Epoxy recouverte d'une fine couche de cuivre (≃ 60μm). Nous avons imprimé sur du papier calque la modélisation de notre PCB réalisée sur KICAD pour ensuite insoler notre plaquette aux UV avec le calque par-dessus pendant quelques minutes. À l'aide d'un révélateur, nous avons retiré la partie de la résine non insolée. La plaquette d'Epoxy est ensuite placée dans un bain de perchlorure de fer pour la gravure, cette opération dure en moyenne 7-9min. Le cuivre non protégé par la résine est ainsi retiré de la plaquette ce qui nous permet d'obtenir notre PCB correspondant à notre KICAD. Enfin, un rincage à l'acétone est réalisé sur la plaquette pour éliminer les dernières traces de résine.
 
-### Perçage et soudure <a id="DeuxiemeSection6"></a>
+### Perçage et soudure <a id="DeuxiemeSection5"></a>
 
 Nous avons ensuite percé notre PCB aux emplacements où les différents composants seront insérés à l'aide d'une perceuse électrique. Le diamètre des trous dépend des différents composants à placer :
 
