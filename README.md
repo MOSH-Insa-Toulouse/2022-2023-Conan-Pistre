@@ -38,7 +38,7 @@ Notre projet se sépare en deux axes précis:
 
 ## Tests et Mesures LTSpice : circuit amplificateur Transimpédance à deux étages <a id="PremiereSection"></a>
 
-Le Schéma du circuit `Ci-dessous` représente le circuit choisi pour optimiser les capacités de notre capteur. En effet ce dernier possédant une résistance élevée, il ne délivrera qu'un courant faible qu'il nous faut amplifier pour obtenir des résultats exploitables par notre programme Arduino.
+Le Schéma du circuit `ci-dessous` représente le circuit choisi pour optimiser les capacités de notre capteur. En effet ce dernier possédant une résistance élevée, il ne délivrera qu'un courant faible qu'il nous faut amplifier pour obtenir des résultats exploitables par notre programme Arduino.
 
 **Schéma électrique Optimisé**
 ![Schéma électrique optimisé](https://github.com/MOSH-Insa-Toulouse/2022-2023-Conan-Pistre/assets/124299449/073e9e18-b402-41fa-b7d9-c79b0854c814)
@@ -53,7 +53,7 @@ Passons maintenant à la simulation de notre circuit afin d'en évaluer l'optimi
 **Vérification du la tension de sortie du montage avec un courant d'entrée égal à 100nA**
 ![Test 100nA](https://github.com/MOSH-Insa-Toulouse/2022-2023-Conan-Pistre/assets/124299449/8a9fe258-257a-4ad1-936e-59e497afc3d3)
 
-Comme constaté `Ci-dessus` notre circuit permet bien un gain de 100dB ce qui permet une nette augmentation du signal de sortie par rapport au signal d'entrée.
+Comme constaté `ci-dessus` notre circuit permet bien un gain de 100dB ce qui permet une nette augmentation du signal de sortie par rapport au signal d'entrée.
 
 ## Fabrication du Shield <a id="DeuxiemeSection"></a>
 
@@ -72,7 +72,7 @@ Pour fabriquer notre PCB nous avons du le designer sur KICAD. Nous avons ajouté
 
 * Amplificateur LT1050 
 
-<img src="https://github.com/MOSH-Insa-Toulouse/2022-2023-Conan-Pistre/assets/124299449/9cdc2260-44b8-49fc-b331-57cdfd9763ce" height="200"> 
+<img src="https://github.com/MOSH-Insa-Toulouse/2022-2023-Conan-Pistre/assets/124299449/cc63cc12-8514-423d-81bc-4b205ba3ffc6" height="200">
 <img src="https://github.com/MOSH-Insa-Toulouse/2022-2023-Conan-Pistre/assets/124299449/c8b8069a-4d96-43b7-b684-560d6a77d59a" height="200"> 
 
 * Capteur Graphite 
@@ -93,10 +93,13 @@ Une fois les empreintes créées, nous avons réalisé le schéma de notre shiel
 ![schématique](https://github.com/MOSH-Insa-Toulouse/2022-2023-Conan-Pistre/assets/124299449/e11dc63e-8564-4904-98b3-fa5d8bc89b6a)
 
 ### Placement des composants <a id="DeuxiemeSection3"></a>
+
+![PCB](https://github.com/MOSH-Insa-Toulouse/2022-2023-Conan-Pistre/assets/124299449/4cf51378-f59e-4be3-8dd0-46988686cba1)
+
 ### Visualisation 3D <a id="DeuxiemeSection4"></a>
 ### Réalisation du PCB <a id="DeuxiemeSection5"></a>
 
-Le PCB a été réalisé avec l'aide de Cathy. Notre PCB a été fabriqué à partir d'une plaque d'Epoxy recouverte d'une fine couche de cuivre (≃ 60μm). Nous avons imprimé sur du papier calque la modélisation de notre PCB réalisée sur KICAD pour ensuite insoler notre plaquette aux UV avec la silhouette par-dessus pendant quelques minutes. À l'aide d'un révélateur, nous avons retiré la partie de la résine non insolée. La plaquette d'Epoxy est ensuite placée dans un bain de perchlorure de fer pour la gravure, opération durant entre 7 et 9 minutes. Le cuivre non protégé par la résine est ainsi retiré de la plaquette ce qui nous permet d'obtenir le PCB avec les pistes souhaitées. Enfin, de l'acétone est appliquée sur la plaquette pour éliminer les dernières traces de résine.
+Le PCB a été réalisé avec l'aide de Cathy. Notre PCB a été fabriqué à partir d'une plaque d'Epoxy recouverte d'une fine couche de cuivre (≃ 60μm). Nous avons imprimé sur du papier calque la modélisation de notre PCB réalisée sur KICAD pour ensuite insoler notre plaquette aux UV avec le calque par-dessus pendant quelques minutes. À l'aide d'un révélateur, nous avons retiré la partie de la résine non insolée. La plaquette d'Epoxy est ensuite placée dans un bain de perchlorure de fer pour la gravure, cette opération dure en moyenne 7-9min. Le cuivre non protégé par la résine est ainsi retiré de la plaquette ce qui nous permet d'obtenir notre PCB correspondant à notre KICAD. Enfin, un rincage à l'acétone est réalisé sur la plaquette pour éliminer les dernières traces de résine.
 
 ### Perçage et soudure <a id="DeuxiemeSection6"></a>
 
@@ -112,7 +115,7 @@ Nous avons ensuite percé notre PCB aux emplacements où les différents composa
 ## Application Smartphone APK <a id="QuatriemeSection"></a>
 ## Banc de test <a id="CinquiemeSection"></a>
 
-Pour réaliser notre banc de test, nous avons utilisé le banc de test fourni par le Génie Physique : 7 demi-cercles en plastique, dont les diamètres varient de 1 cm à 2,5cm. Le test alors réalisé est plutôt simple : nous mesurons différentes valeurs de résistance en courbant notre capteur sur le banc de test. Nous utilisons 3 capteurs préparé à l'aide de 3 types de crayons différents à dureté variable : un 1B, un HB et un 4B.
+Pour réaliser notre phase de test, nous avons utilisé le banc de test réalisé lors des années précédentes : 7 demi-cercles en plastique, dont les diamètres varient de 2cm à 5cm. Le test alors réalisé est plutôt simple : nous mesurons différentes valeurs de résistance en courbant notre capteur sur le banc de test. Nous utilisons 3 capteurs préparés à l'aide de 3 types de crayons différents à dureté variable : un HB, un 1B et un 4B.
 
 <img width="252" alt="116738001-2dc50b00-a9f2-11eb-9315-dd29a9fe3ac9" src="https://github.com/MOSH-Insa-Toulouse/2022-2023-Conan-Pistre/assets/124299449/7a3ebfc8-85bd-400f-bcd3-adbc765b7827">
 
