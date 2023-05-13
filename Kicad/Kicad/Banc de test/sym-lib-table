@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name "Librairie Simbole capteur graphite")(type "KiCad")(uri "${KIPRJMOD}/Librairie Simbole capteur graphite.kicad_sym")(options "")(descr ""))
+  (lib (name "LTC1050")(type "KiCad")(uri "${KIPRJMOD}/LTC1050.kicad_sym")(options "")(descr ""))
+  (lib (name "Librairie LTC1050")(type "KiCad")(uri "${KIPRJMOD}/Librairie LTC1050.kicad_sym")(options "")(descr ""))
+  (lib (name "Projet")(type "KiCad")(uri "${KIPRJMOD}/Projet.kicad_sym")(options "")(descr ""))
+)
