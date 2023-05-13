@@ -73,7 +73,7 @@ Pour fabriquer notre PCB nous avons du le designer sur KICAD. Nous avons ajouté
 * Amplificateur LT1050 
 
 <img src="https://github.com/MOSH-Insa-Toulouse/2022-2023-Conan-Pistre/assets/124299449/cc63cc12-8514-423d-81bc-4b205ba3ffc6" height="200">
-<img src="https://github.com/MOSH-Insa-Toulouse/2022-2023-Conan-Pistre/assets/124299449/c8b8069a-4d96-43b7-b684-560d6a77d59a" height="200"> 
+<img src="https://github.com/MOSH-Insa-Toulouse/2022-2023-Conan-Pistre/assets/124299449/5e5588c3-af64-495a-bda7-1309f1d21f31" height="200"> 
 
 * Capteur Graphite 
 
@@ -90,7 +90,7 @@ Pour fabriquer notre PCB nous avons du le designer sur KICAD. Nous avons ajouté
 
 Une fois les empreintes créées, nous avons réalisé le schéma de notre shield. En haut à gauche sont représentées les broches de la carte Arduino. Au milieu est représenté le cicuit comprenant notre capteur et l'amplificateur transimpédance et juste au-dessus se trouvent l'écran OLED, le module bluetooth et l'encodeur rotatoire.
 
-![schématique](https://github.com/MOSH-Insa-Toulouse/2022-2023-Conan-Pistre/assets/124299449/e11dc63e-8564-4904-98b3-fa5d8bc89b6a)
+![schématique](https://github.com/MOSH-Insa-Toulouse/2022-2023-Conan-Pistre/assets/124299449/ab0e1c07-749f-45b6-93e3-46a6f9240166)
 
 ### Placement des composants <a id="DeuxiemeSection3"></a>
 
