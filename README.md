@@ -40,7 +40,7 @@ Notre projet se sépare en deux axes précis:
 Le Schéma du circuit `ci-dessous` représente le circuit choisi pour optimiser les capacités de notre capteur. En effet ce dernier possédant une résistance élevée, il ne délivrera qu'un courant faible qu'il nous faut amplifier pour obtenir des résultats exploitables par notre programme Arduino.
 
 **Schéma électrique Optimisé**
-![Schéma électrique optimisé](https://github.com/MOSH-Insa-Toulouse/2022-2023-Conan-Pistre/assets/124299449/073e9e18-b402-41fa-b7d9-c79b0854c814)
+![238069557-073e9e18-b402-41fa-b7d9-c79b0854c814](https://github.com/MOSH-Insa-Toulouse/2022-2023-Conan-Pistre/assets/124299449/e45fb96b-6e29-4a98-9285-b0a7a87829f0)
 
 Ce circuit possède 3 filtres ayant chacun leur utilité :
  - `en rouge` le filtre passe bas passif permet donc filtrer les perturbations et les excès de bruit en courant sur la forme du signal d'entrée, il possède une fréquence de coupure aux alentour de 16Hz.
