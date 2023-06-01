@@ -56,7 +56,7 @@ Comme constaté `ci-dessus` notre circuit permet bien un gain de 100dB ce qui pe
 
 ## Fabrication du Shield <a id="DeuxiemeSection"></a>
 
-Pour fabriquer notre PCB nous avons du le designer sur KICAD. Nous avons ajouté au circuit précédent un écran OLED, un encodeur rotatoire ainsi qu'un module Bluetooth afin d'exploiter les résultats de notre capteur.
+Pour fabriquer notre PCB nous avons du le designer sur KICAD 7.0. Nous avons ajouté au circuit précédent un écran OLED, un encodeur rotatoire ainsi qu'un module Bluetooth afin d'exploiter les résultats de notre capteur.
 
 ### Composants designés : Symboles & empreintes <a id="DeuxiemeSection1"></a>
 
