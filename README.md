@@ -37,7 +37,7 @@ Notre projet se sépare en deux axes précis:
 
 ## Tests et Mesures LTSpice : circuit amplificateur Transimpédance à deux étages <a id="PremiereSection"></a>
 
-Le Schéma du circuit `ci-dessous` représente le circuit choisi pour optimiser les capacités de notre capteur. En effet ce dernier possédant une résistance élevée, il ne délivrera qu'un courant faible qu'il nous faut amplifier pour obtenir des résultats exploitables par notre programme Arduino.
+Les tests suivants ont été réalisés sur LTSpice 17.00.27.00 Le Schéma du circuit `ci-dessous` représente le circuit choisi pour optimiser les capacités de notre capteur. En effet ce dernier possédant une résistance élevée, il ne délivrera qu'un courant faible qu'il nous faut amplifier pour obtenir des résultats exploitables par notre programme Arduino réalisé sur Arduino 1.8.19.
 
 **Schéma électrique Optimisé**
 ![238069557-073e9e18-b402-41fa-b7d9-c79b0854c814](https://github.com/MOSH-Insa-Toulouse/2022-2023-Conan-Pistre/assets/124299449/e45fb96b-6e29-4a98-9285-b0a7a87829f0)
